@@ -9,30 +9,25 @@ import SwiftUI
 
 struct premierLeague: View {
     var body: some View {
-        VStack{
-            Image("Prembanner")
+        ZStack{
+            Color.black
+                .ignoresSafeArea()
+            VStack{
+                Image("Prembanner")
+                    .resizable()
+                    .scaledToFit()
+
+                
+                
+            }
+        }
+        
+
+    }
+        struct premierLeague_Previews: PreviewProvider {
+            static var previews: some View {
+                premierLeague()
+            }
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    struct premierLeague_Previews: PreviewProvider {
-        static var previews: some View {
-            premierLeague()
-        }
-    }
-}
+

@@ -15,11 +15,7 @@ struct ContentView: View {
                         .font(.largeTitle)
                         .foregroundColor(.white)
                     
-                        .padding()
-                        .padding()
-                        .padding()
-                        .padding()
-                        .padding()
+                        Spacer()
                     
                     
                     NavigationLink("Premier League") {

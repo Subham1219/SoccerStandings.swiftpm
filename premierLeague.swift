@@ -16,7 +16,7 @@ struct premierLeague: View {
                 Image("Prembanner")
                     .resizable()
                     .scaledToFit()
-
+                Spacer()
                 
                 
             }

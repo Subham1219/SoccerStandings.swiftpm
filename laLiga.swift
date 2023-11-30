@@ -9,11 +9,26 @@ import SwiftUI
 
 struct laLiga: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-      Image("LaLigaLogo")
+        ZStack{
+            Color.black
+                .ignoresSafeArea()
+            VStack{
+                Image("LaLigaLogo")
+                    .resizable()
+                    .scaledToFit()
+                Spacer()
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+        }
     }
 }
-
 struct laLiga_Previews: PreviewProvider {
     static var previews: some View {
         laLiga()

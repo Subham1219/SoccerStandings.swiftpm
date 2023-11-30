@@ -2,18 +2,46 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Soccer Leagues Standings")
-                .font(.largeTitle)
-            Image(systemName: "figure.soccer")
-                .font(.largeTitle)
-        
-                .padding()
-                .padding()
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
             
-            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+            VStack {
+                Text("Soccer Leagues Standings")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                Image(systemName: "soccerball")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                
+                    .padding()
+                    .padding()
+                
+                NavigationLink("Premier League") {
+                    premierLeague()
+                }
+                .foregroundColor(.blue)
+                .font(.system(size: 24))
+                
+                .padding()
+                
+                NavigationLink("La Liga") {
+                    laLiga()
+                }
+                .foregroundColor(.orange)
+                .font(.system(size: 24))
+                
+                .padding()
+                
+                NavigationLink("Bundesliga") {
+                    bundesliga()
+                }
+                .foregroundColor(.red)
+                .font(.system(size: 24))
             }
+            
+            
+            
         }
     }
 }

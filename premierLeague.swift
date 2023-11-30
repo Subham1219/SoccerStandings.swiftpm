@@ -9,12 +9,30 @@ import SwiftUI
 
 struct premierLeague: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("Prembanner")
+        }
     }
-}
-
-struct premierLeague_Previews: PreviewProvider {
-    static var previews: some View {
-        premierLeague()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    struct premierLeague_Previews: PreviewProvider {
+        static var previews: some View {
+            premierLeague()
+        }
     }
 }

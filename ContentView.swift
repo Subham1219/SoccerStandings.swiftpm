@@ -17,6 +17,10 @@ struct ContentView: View {
                     
                         .padding()
                         .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                    
                     
                     NavigationLink("Premier League") {
                         premierLeague()

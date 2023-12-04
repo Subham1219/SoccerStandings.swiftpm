@@ -13,10 +13,10 @@ struct laLiga: View {
             Color.black
                 .ignoresSafeArea()
             VStack{
-                Image("LaLigaLogo")
-                    .resizable()
-                    .scaledToFit()
-                Spacer()
+//                Image("LaLigaLogo")
+//                    .resizable()
+//                    .scaledToFit()
+//                Spacer()
                 
                 
                 

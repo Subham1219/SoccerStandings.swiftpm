@@ -10,13 +10,13 @@ import SwiftUI
 struct laLiga: View {
     var body: some View {
         ZStack{
-            Color.black
+            Color.white
                 .ignoresSafeArea()
             VStack{
-//                Image("LaLigaLogo")
-//                    .resizable()
-//                    .scaledToFit()
-//                Spacer()
+                Image("LaLigaLogo")
+                    .resizable()
+                    .scaledToFit()
+                Spacer()
                 
                 
                 

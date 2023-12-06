@@ -4,16 +4,23 @@ import SwiftUI
 struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
             
             TabView {
-                laLiga().tabItem {
-                    Text("Laliga")
-                        .font(.system(size: 34))
-                    Spacer()
-                }
+                laLiga()
+                    .tabItem {
+                        Label("La Liga", systemImage: "list.dash")
+                        
+                    }
+                premierLeague()
+                    .tabItem {
+                        Label("Premier League", systemImage: "list.dash")
+                        
+                    }
+                bundesliga()
+                    .tabItem {
+                        Label("Bundesliga", systemImage: "list.dash")
+                    }
             }
-            
         }
     }
 }

@@ -10,7 +10,7 @@ import SwiftUI
 struct premierLeague: View {
     var body: some View {
         ZStack{
-            Color.black
+            Color.white
                 .ignoresSafeArea()
             VStack{
                 Image("Prembanner")
